@@ -49,7 +49,7 @@
       <section id="top" class="hero" aria-labelledby="hero-title">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow eyebrow--light"><span class="eyebrow-dot" aria-hidden="true"></span> Quality Assurance Engineer</p>
+            <p class="eyebrow eyebrow--light"><span class="eyebrow-dot" aria-hidden="true"></span> Quality Assurance</p>
             <h1 id="hero-title">Building confidence into every release.</h1>
             <p class="hero-lede">I’m Iqbal, a Quality Assurance professional who turns requirements into clear scenarios, reliable evidence, and better product decisions.</p>
             <div class="hero-actions">
@@ -252,14 +252,16 @@
               <p class="eyebrow">04 / Selected work</p>
               <h2 id="work-title" class="section-title">Small projects, clear proof of practice.</h2>
             </div>
-            <p class="section-intro">Three artifacts that show how I approach browser automation, API checks, and structured UAT work.</p>
+            <p class="section-intro">A focused mix of real-project evidence and reproducible QA artifacts across automation, performance, API, and UAT work.</p>
           </div>
 
           <div class="work-grid">
-            <article class="work-card work-card--featured">
+            <article class="work-card">
               <div class="work-visual work-visual--playwright">
                 <span class="visual-kicker">Main project</span>
-                <span class="visual-symbol" aria-hidden="true">{ }</span>
+                <span class="project-logo project-logo--orangehrm" aria-hidden="true">
+                  <img src="img/projects/orangehrm.png" alt="" width="182" height="50">
+                </span>
                 <span class="visual-caption">browser / stable / repeatable</span>
               </div>
               <div class="work-content">
@@ -272,13 +274,32 @@
             </article>
 
             <article class="work-card">
+              <div class="work-visual work-visual--jmeter">
+                <span class="visual-kicker">Real project · sanitized</span>
+                <span class="project-logo project-logo--jmeter" aria-hidden="true">
+                  <img src="img/projects/jmeter.svg" alt="" width="120" height="120">
+                </span>
+                <span class="visual-caption">baseline / observe / report</span>
+              </div>
+              <div class="work-content">
+                <div class="work-meta"><span>02</span><span>Performance testing</span></div>
+                <h3>Cozy My Motion - Batch Enrollment API Performance Testing</h3>
+                <p>A sanitized JMeter case study based on a real development-environment execution for a batch-enrollment workflow, covering dynamic session handling, CSV-driven payload selection, JSON assertions, and batch-status polling.</p>
+                <div class="tag-list"><span>JMeter</span><span>REST API</span><span>CSV data</span><span>JSON assertions</span></div>
+                <p class="work-links"><a class="work-link" href="https://github.com/Iqbalfachrian/mymotion-enrollment-jmeter" target="_blank" rel="noopener noreferrer">Github <span aria-hidden="true">↗</span></a></p>
+              </div>
+            </article>
+
+            <article class="work-card">
               <div class="work-visual work-visual--api">
                 <span class="visual-kicker">Supporting project</span>
-                <span class="visual-symbol" aria-hidden="true">200</span>
+                <span class="project-logo project-logo--postman" aria-hidden="true">
+                  <img src="img/projects/postman.svg" alt="" width="96" height="96">
+                </span>
                 <span class="visual-caption">request → response → assertion</span>
               </div>
               <div class="work-content">
-                <div class="work-meta"><span>02</span><span>REST API testing</span></div>
+                <div class="work-meta"><span>03</span><span>REST API testing</span></div>
                 <h3>ReqRes API Testing</h3>
                 <p>A Postman collection covering positive and negative scenarios, HTTP status validation, response-body assertions, and practical execution evidence for a public API sample.</p>
                 <div class="tag-list"><span>Postman</span><span>REST API</span><span>Assertions</span></div>
@@ -289,11 +310,13 @@
             <article class="work-card">
               <div class="work-visual work-visual--uat">
                 <span class="visual-kicker">Reusable artifact</span>
-                <span class="visual-symbol visual-symbol--small" aria-hidden="true">TC</span>
+                <span class="project-logo project-logo--excel" aria-hidden="true">
+                  <img src="img/projects/microsoft-excel.svg" alt="" width="96" height="96">
+                </span>
                 <span class="visual-caption">design / execute / trace</span>
               </div>
               <div class="work-content">
-                <div class="work-meta"><span>03</span><span>Test management</span></div>
+                <div class="work-meta"><span>04</span><span>Test management</span></div>
                 <h3>UAT Test Case Template</h3>
                 <p>A reusable structure for test design, execution status, evidence, defect traceability, and dashboard-ready reporting—kept separate from confidential project data.</p>
                 <div class="tag-list"><span>Test design</span><span>Evidence</span><span>Traceability</span></div>
@@ -337,9 +360,48 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>© <span data-current-year>2026</span> Iqbal Fachrian. Built with care for better software.</p>
-        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      <div class="container footer-hero">
+        <div>
+          <p class="footer-label">QA / Closing signal</p>
+          <h2>Quality should be visible before release.</h2>
+          <p class="footer-hero__support">Evidence-led testing across product, API, browser, and data workflows.</p>
+        </div>
+        <a class="footer-hero__link" href="#contact">
+          <span>Let’s connect</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="footer-brand__identity" href="#top" aria-label="Iqbal Fachrian home">
+            <span class="brand-mark" aria-hidden="true">IF</span>
+            <span>Iqbal Fachrian</span>
+          </a>
+          <p class="footer-brand__role">Quality Assurance<br>Manual QA <span aria-hidden="true">→</span> Automation QA</p>
+          <p class="footer-status"><span aria-hidden="true"></span> Currently building repeatable QA practice</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <p class="footer-label">Navigate</p>
+          <a href="#about">About</a>
+          <a href="#journey">My Journey</a>
+          <a href="#capabilities">QA Toolkit</a>
+          <a href="#work">Selected Work</a>
+        </nav>
+
+        <div class="footer-connect">
+          <p class="footer-label">Connect</p>
+          <a href="mailto:iqbalf.dev@gmail.com">Email <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/iqbalfachrian" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/Iqbalfachrian" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span data-current-year>2026</span> Iqbal Fachrian</p>
+        <p>Built with care for better software.</p>
+        <a class="footer-back" href="#top">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </footer>
 
