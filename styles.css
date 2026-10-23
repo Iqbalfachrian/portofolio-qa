@@ -1419,6 +1419,10 @@ html[data-theme="light"] .nav-toggle {
   border-bottom: 1px solid var(--line);
 }
 
+.certificate-item--featured .certificate-preview {
+  border-color: var(--green);
+}
+
 .certificate-preview {
   display: grid;
   width: 100%;
