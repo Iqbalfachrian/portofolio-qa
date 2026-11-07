@@ -756,8 +756,8 @@ html[data-theme="light"] .nav-toggle {
 .tool-groups {
   display: flex;
   flex: 0 0 auto;
-  gap: 2rem;
-  padding-right: 2rem;
+  gap: 3rem;
+  padding-right: 3rem;
 }
 
 .tool-group {
@@ -841,7 +841,7 @@ html[data-theme="light"] .nav-toggle {
 .capabilities-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .capability-card {
@@ -880,7 +880,7 @@ html[data-theme="light"] .nav-toggle {
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
   align-items: stretch;
 }
@@ -996,6 +996,15 @@ html[data-theme="light"] .nav-toggle {
 
 .project-logo--postman img {
   max-height: 6.5rem;
+}
+
+.project-logo--postgresql {
+  width: min(100%, 15rem);
+  min-height: 9.5rem;
+}
+
+.project-logo--postgresql img {
+  max-height: 7rem;
 }
 
 
@@ -1370,6 +1379,8 @@ html[data-theme="light"] .nav-toggle {
 }
 
 @media (max-width: 1080px) {
+  .work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
   .nav-toggle { display: block; }
 
   .site-nav {
@@ -1419,13 +1430,6 @@ html[data-theme="light"] .nav-toggle {
     font-size: clamp(2rem, 5vw, 3.2rem);
   }
 
-  .work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-
-  .work-grid > .work-card:nth-child(3) {
-    grid-column: 1 / -1;
-    width: min(100%, 36rem);
-    justify-self: center;
-  }
 
 
 }
